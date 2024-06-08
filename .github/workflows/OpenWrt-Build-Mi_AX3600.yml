@@ -8,15 +8,7 @@ name: OpenWrt-Build-Mi_AX3600
 
 # 触发条件
 on:
-  #  push:
-  #    branches:
-  #      - master
-  #    paths:
-  #      - '.config'
-  schedule:
-     - cron: 0 0 3/7 * *
-  #watch:
-  #   types: started
+  workflow_dispatch:
 
 # 环境定义
 env:
